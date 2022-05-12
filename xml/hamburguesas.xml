@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<hamburguesas>
+	<hamburguesa id="1">
+		<titulo>Hamburguesa Vegana</titulo>
+		<descripcion>Seas vegano o no, debes de probar nuestra hamburguesa vegana, la hamburguesa, esta hecha de zanahoria y betabel añadiendole, lechuga, cebolla, chips de patata y el toque maestro, aguacate, además de nuestra salsa de yogur vegano.</descripcion>
+		<precio>12€</precio>
+		<kcal>500</kcal>
+		<ingredientes>
+			<ingrediente>Hamburguesa de zanahoria y betabel</ingrediente>
+			<ingrediente>Lechuga</ingrediente>
+			<ingrediente>Cebolla</ingrediente>
+			<ingrediente>Chips de patata</ingrediente>
+			<ingrediente>Aguacate</ingrediente>
+			<ingrediente>Salsa de yogur vegano</ingrediente>
+		</ingredientes>
+		<valoracion>8.5</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+		</alergenos>
+		<foto>../imagenes/hamburguesaVegana.jpg</foto>
+	</hamburguesa>
+	<hamburguesa id="2">
+		<titulo>Hamburguesa BOOM</titulo>
+		<descripcion>500 gramos de nuestra mejor carne, bacon ahumado, 2 huevos, 1 lata de pimientos asados y 2 fetas de queso mozzarrella ademas de nuestra salsa BOOM (mostaza, ketchup, mayonesa y pepinillos picados). Si después de probarla, no quedas satisfecho, no eres un verdadero amante de las hamburguesas.</descripcion>
+		<precio>13€</precio>
+		<kcal>1200</kcal>
+		<ingredientes>
+			<ingrediente>500 gramos de carne de ternera</ingrediente>
+			<ingrediente>Bacon ahumado</ingrediente>
+			<ingrediente>2 Huevos</ingrediente>
+			<ingrediente>1 Lata de pimientos asados</ingrediente>
+			<ingrediente>2 fetas de queso mozzarrella</ingrediente>
+			<ingrediente>Salsa BOOM (mostaza, ketchup, mayones y pepinillos picados)</ingrediente>
+		</ingredientes>
+		<valoracion>9</valoracion>
+		<alergenos>
+			<alergeno>Huevos</alergeno>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Cereales con gluten</alergeno>
+			<alergeno>Mostaza</alergeno>
+		</alergenos>
+		<foto>../imagenes/hamburguesaBOOM.jpg</foto>
+	</hamburguesa>
+	<hamburguesa id="3">
+		<titulo>Hamburguesa Crunchy</titulo>
+		<descripcion>Para los amantes del pollo y de la cerveza, esta es vuestra hamburguesa, pollo crujiente con una salsa de mostaza y cerveza además de queso lechuga y tomate.</descripcion>
+		<precio>10€</precio>
+		<kcal>900</kcal>
+		<ingredientes>
+			<ingrediente>Hamburguesa de pollo crujiente</ingrediente>
+			<ingrediente>Queso</ingrediente>
+			<ingrediente>Lechuga</ingrediente>
+			<ingrediente>Tomate</ingrediente>
+			<ingrediente>Salsa de mostaza y cerveza</ingrediente>
+		</ingredientes>
+		<valoracion>8.75</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Cereales con gluten</alergeno>
+			<alergeno>Mostaza</alergeno>
+			<alergeno>Lácteos</alergeno>
+		</alergenos>
+		<foto>../imagenes/hamburguesaCrunchy.jpg</foto>
+	</hamburguesa>
+	<hamburguesa id="4">
+		<titulo>Hamburguesa Burguer CangreBurguer</titulo>
+		<descripcion>La auténtica receta del Crustaceo Crujiente, una hamburguesa de merluza y gambas peladas mezcladas entre sí, con pepinillos, lechuga y tomate y la famosa salsa secreta (mostaza, mayones y ketchup)</descripcion>
+		<precio>12€</precio>
+		<kcal>850</kcal>
+		<ingredientes>
+			<ingrediente>Hamburguesa de merluza y gambas peladas</ingrediente>
+			<ingrediente>Pepinillo</ingrediente>
+			<ingrediente>Lechuga</ingrediente>
+			<ingrediente>Tomate</ingrediente>
+			<ingrediente>Salsa de mostaza, mayonesa y ketchup</ingrediente>
+		</ingredientes>
+		<valoracion>7.5</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Cereales con gluten</alergeno>
+			<alergeno>Mostaza</alergeno>
+			<alergeno>Lácteos</alergeno>
+			<alergeno>Pescado</alergeno>	
+		</alergenos>
+		<foto>../imagenes/hamburguesaCangreburguer.jpg</foto>
+	</hamburguesa>
+	<hamburguesa id="5">
+		<titulo>Hamburguesa Simple</titulo>
+		<descripcion>Para picar algo rápido y sin mucho contenido, disponemos de nuestra hamburguesa simple, carne de ternera, queso lechuga y tomate además de un toque de ketchup</descripcion>
+		<precio>7€</precio>
+		<kcal>700</kcal>
+		<ingredientes>
+			<ingrediente>Hamburguesa de ternera</ingrediente>
+			<ingrediente>Queso</ingrediente>
+			<ingrediente>Lechuga</ingrediente>
+			<ingrediente>Tomate</ingrediente>
+			<ingrediente>Ketchup</ingrediente>
+		</ingredientes>
+		<valoracion>7</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Cereales con gluten</alergeno>
+			<alergeno>Lácteos</alergeno>
+		</alergenos>
+		<foto>../imagenes/hamburguesaSimple.jpg</foto>
+	</hamburguesa>
+	<hamburguesa id="6">
+		<titulo>GIGA-Hamburguesa Machete</titulo>
+		<descripcion>La mayor hamburguesa vista, está hamburguesa GIGANTE está diseñada para compartir entre 4 a 6 personas, 2 kilos de carne de ternera, unos cuantos huevos y trozos de bacon, además de queso, lechuga y tomate con nuestra salsa BOOM. Si logras Comertela tu SOLO, no deberás de pagarla ni lo demás que hayas consumido, estarás invitado a la cuenta</descripcion>
+		<precio>30€</precio>
+		<kcal>5000</kcal>
+		<ingredientes>
+			<ingrediente>2 kg de carne de ternera</ingrediente>
+			<ingrediente>Queso</ingrediente>
+			<ingrediente>Lechuga</ingrediente>
+			<ingrediente>Tomate</ingrediente>
+			<ingrediente>Huevos</ingrediente>
+			<ingrediente>Bacon</ingrediente>
+			<ingrediente>Salsa BOOM (mostaza, ketchup, mayones y pepinillos picados)</ingrediente>
+		</ingredientes>
+		<valoracion>8</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Cereales con gluten</alergeno>
+			<alergeno>Huevos</alergeno>
+			<alergeno>Lácteos</alergeno>
+			<alergeno>Mostaza</alergeno>
+		</alergenos>
+		<foto>../imagenes/hamburguesaMachete.jpg</foto>
+	</hamburguesa>
+</hamburguesas>

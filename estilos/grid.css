@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+body header {
+    text-align: center;
+}
+
+header img {
+    width: 30%;
+    height: 30%;
+    border: 0;
+}
+
+nav > ul {
+	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+    background: #ba3c3c;
+    padding: 0 0;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    margin: 0 0 0 0;
+	min-width:150px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #000;
+}
+
+nav ul li {
+    float: left;
+    width: 12%;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    color: #ffffff;
+    display: table;
+    padding: 25px 40px;
+    text-decoration: none;
+}
+
+.contacto_footer {
+    float: right;
+}
+
+.validaciones {
+    float: left;
+}
+
+.botonesOpciones{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.botonOpciones{
+	text-align: center;
+	background: #e6baba;
+	font-size: 25px;
+}
+
+.recomendaciones {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(1fr 2fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+.recomendaciones-texto-izquierda {
+  grid-column: 1fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recomendaciones-imagen-derecha {
+  grid-column: 2fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recomendaciones-texto-derecha {
+  grid-column: 1fr;
+  grid-row: 1fr;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.recomendaciones-imagen-izquierda {
+  grid-column: 2fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vegano {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(1fr 2fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+.vegano-texto-izquierda {
+  grid-column: 1fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegano-imagen-derecha {
+  grid-column: 2fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegano-texto-derecha {
+  grid-column: 1fr;
+  grid-row: 1fr;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegano-imagen-izquierda {
+  grid-column: 2fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vegetariano {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(1fr 2fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+.vegetariano-texto-izquierda {
+  grid-column: 1fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegetariano-imagen-derecha {
+  grid-column: 2fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegetariano-texto-derecha {
+  grid-column: 1fr;
+  grid-row: 1fr;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegetariano-imagen-izquierda {
+  grid-column: 2fr;
+  grid-row: 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:active{
+    color: white;
+    background-color: #A28585 !important;
+}

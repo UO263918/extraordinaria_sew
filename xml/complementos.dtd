@@ -1,0 +1,46 @@
+<!ELEMENT complementos (complemento)+>
+<!ATTLIST complementos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT complemento (titulo,descripcion,precio,kcal,valoracion,alergenos,foto,recomendacion)>
+<!ATTLIST complemento
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT kcal (#PCDATA)>
+<!ATTLIST kcal
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT valoracion (#PCDATA)>
+<!ATTLIST valoracion
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT alergenos (alergeno)+>
+<!ATTLIST alergenos
+  xmlns CDATA #FIXED ''>
+ 
+<!ELEMENT alergeno (#PCDATA)>
+<!ATTLIST alergeno
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT recomendacion (#PCDATA)>
+<!ATTLIST recomendacion
+  xmlns CDATA #FIXED ''>
+
+

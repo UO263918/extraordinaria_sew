@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<complementos>
+	<complemento id="1">
+		<titulo>Patatas de Bacon y Queso</titulo>
+		<descripcion>Nuestras deliciosas patatas caseras, añadiendoles trozos de Crispy Bacon y nuestra salsa secreta además de todo el queso fundido que te puedes imaginar.</descripcion>
+		<precio>12€</precio>
+		<kcal>800</kcal>
+		<valoracion>9</valoracion>
+		<alergenos>
+			<alergeno>Lácteos</alergeno>
+			<alergeno>Mostaza</alergeno>
+			<alergeno>Huevos</alergeno>
+		</alergenos>
+		<foto>../imagenes/patatasBaconYQueso.png</foto>
+		<recomencadion>Ideales para compartir con otra persona además de pedir una hamburguesa para cada uno</recomencadion>
+	</complemento>
+	<complemento id="2">
+		<titulo>Aros de Cebolla con Salsa ULTRA Picante</titulo>
+		<descripcion>Si amais los aros de cebolla y amais el picante, estos aros de cebolla son lo mejor que habreis probado, pocos os atrevereis a probarlos por su intenso picante. (8 unidades)</descripcion>
+		<precio>10€</precio>
+		<kcal>600</kcal>
+		<valoracion>8.75</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Huevos</alergeno>
+			<alergeno>Mostaza</alergeno>
+		</alergenos>
+		<foto>../imagenes/arosDeCebolla.png</foto>
+		<recomencadion>Se pueden compartir entre 4 personas y pedir otro complemento más o directamente una hamburguesa para cada uno</recomencadion>
+	</complemento>
+	<complemento id="3">
+		<titulo>Alitas de Pollo CRAZY</titulo>
+		<descripcion>Las famosas alitas de pollo, pero con nuestras 2 salsas secretas para chuparse los dedos (8 unidades)</descripcion>
+		<precio>8€</precio>
+		<kcal>750</kcal>
+		<valoracion>8</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Huevos</alergeno>
+			<alergeno>Lácteos</alergeno>
+			<alergeno>Mostaza</alergeno>
+		</alergenos>
+		<foto>../imagenes/alitasDePollo.jpg</foto>
+		<recomencadion>Se pueden compartir entre 2 personas y pedir otro complemento más o directamente una hamburguesa para cada uno</recomencadion>
+	</complemento>
+	<complemento id="4">
+		<titulo>Nuggets de Pollo y Pavo Picantes</titulo>
+		<descripcion>Nuggets de Pollo y Pavo rebozados con nuestras especias, generando una pequeña sensación de picor resistible por cualquier persona (10 unidades)</descripcion>
+		<precio>9€</precio>
+		<kcal>900</kcal>
+		<valoracion>7</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Huevos</alergeno>
+			<alergeno>Cereales con Gluten</alergeno>
+		</alergenos>
+		<foto>../imagenes/nuggetsDePolloYPavoPicantes.jpg</foto>
+		<recomencadion>Se pueden compartir entre 2 personas y una hamburguesa para cada uno</recomencadion>
+	</complemento>
+	<complemento id="5">
+		<titulo>Nuggets Veganos</titulo>
+		<descripcion>¿Es posible hacer unos nuggets veganos? La respuesta es si, nuggets hechos con garbanzos, harina de avena y cereal de hojuelas de maiz (10 unidades)</descripcion>
+		<precio>12€</precio>
+		<kcal>500</kcal>
+		<valoracion>8</valoracion>
+		<alergenos>
+			<alergeno>Sésamo</alergeno>
+			<alergeno>Cereales con Gluten</alergeno>
+		</alergenos>
+		<foto>../imagenes/nuggetsVeganos.jpg</foto>
+		<recomencadion>Ideal para probar comida 100% vegana, se pueden compartir entre 2 personas y pedir una hamburguesa para cada uno</recomencadion>
+	</complemento>
+</complementos>

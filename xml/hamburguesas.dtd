@@ -1,0 +1,50 @@
+<!ELEMENT hamburguesas (hamburguesa)+>
+<!ATTLIST hamburguesas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hamburguesa (titulo,descripcion,precio,kcal,ingredientes,valoracion,alergenos,foto)>
+<!ATTLIST hamburguesa
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT kcal (#PCDATA)>
+<!ATTLIST kcal
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ingredientes (ingrediente)+>
+<!ATTLIST ingredientes
+  xmlns CDATA #FIXED ''>
+ 
+<!ELEMENT ingrediente (#PCDATA)>
+<!ATTLIST ingrediente
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT valoracion (#PCDATA)>
+<!ATTLIST valoracion
+  xmlns CDATA #FIXED ''>
+  
+<!ELEMENT alergenos (alergeno)+>
+<!ATTLIST alergenos
+  xmlns CDATA #FIXED ''>
+ 
+<!ELEMENT alergeno (#PCDATA)>
+<!ATTLIST alergeno
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto
+  xmlns CDATA #FIXED ''>
+
+

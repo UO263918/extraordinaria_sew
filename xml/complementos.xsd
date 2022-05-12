@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="complementos">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element ref="complemento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="complemento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titulo" />
+		<xs:element ref="descripcion" />
+        <xs:element ref="precio" />
+        <xs:element ref="kcal" />
+        <xs:element ref="valoracion" />
+        <xs:element ref="alergenos" />
+		<xs:element ref="foto" />
+		<xs:element ref="recomendacion" />		
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="titulo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="descripcion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="precio">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="kcal">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="valoracion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="alergenos">
+    <xs:complexType>
+      <xs:sequence minOccurs="1" maxOccurs="unbounded">
+        <xs:element ref="alergeno" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="alergeno">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foto">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recomendacion">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string" />
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
