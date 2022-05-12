@@ -13,12 +13,14 @@ header img {
 nav > ul {
 	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
     background: #ba3c3c;
+	color: black;
     padding: 0 0;
     list-style: none;
     position: relative;
     display: inline-table;
     margin: 0 0 0 0;
-	min-width:150px;
+	min-width:800px;
+	max-width:1200px;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -28,17 +30,19 @@ nav > ul {
 
 nav ul li {
     float: left;
-    width: 12%;
+    width: 25%;
 }
 
 nav ul li:hover a {
-    color: #000;
+    color: white;
+	background: #ba3c3c;
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: black;
+	background: #ba3c3c;
     display: table;
-    padding: 25px 40px;
+    padding: 10px 20px;
     text-decoration: none;
 }
 
@@ -58,13 +62,13 @@ nav ul li a {
 .botonOpciones{
 	text-align: center;
 	background: #e6baba;
+	color: black;
 	font-size: 25px;
 }
 
 .recomendaciones {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(1fr 2fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
@@ -72,35 +76,30 @@ nav ul li a {
   margin: 1rem;
 }
 .recomendaciones-texto-izquierda {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
 }
 .recomendaciones-imagen-derecha {
-  grid-column: 2fr;
-  grid-row: 1fr;
+  grid-column: 2;
   margin-left: auto;
   margin-right: auto;
 }
 .recomendaciones-texto-derecha {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  grid-column: 2;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 .recomendaciones-imagen-izquierda {
-  grid-column: 2fr;
-  grid-row: 1fr;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
 }
 
 .vegano {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(1fr 2fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
@@ -108,35 +107,30 @@ nav ul li a {
   margin: 1rem;
 }
 .vegano-texto-izquierda {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
 }
 .vegano-imagen-derecha {
-  grid-column: 2fr;
-  grid-row: 1fr;
+  grid-column: 2;
   margin-left: auto;
   margin-right: auto;
 }
 .vegano-texto-derecha {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  grid-column: 2;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 .vegano-imagen-izquierda {
-  grid-column: 2fr;
-  grid-row: 1fr;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
 }
 
 .vegetariano {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(1fr 2fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 10px;
   justify-content: center;
   align-items: center;
@@ -144,27 +138,23 @@ nav ul li a {
   margin: 1rem;
 }
 .vegetariano-texto-izquierda {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
 }
 .vegetariano-imagen-derecha {
-  grid-column: 2fr;
-  grid-row: 1fr;
+  grid-column: 2;
   margin-left: auto;
   margin-right: auto;
 }
 .vegetariano-texto-derecha {
-  grid-column: 1fr;
-  grid-row: 1fr;
+  grid-column: 2;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 .vegetariano-imagen-izquierda {
-  grid-column: 2fr;
-  grid-row: 1fr;
+  grid-column: 1;
   margin-left: auto;
   margin-right: auto;
 }
