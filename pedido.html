@@ -39,20 +39,18 @@
 				<form name="pedidos" class="pedidos">
 					<label for="nombre">Nombre:*<br/></label>
 					<input id="nombre" type="text" name="nombre" placeholder="Raul" pattern="[A-Za-z]{3,}" maxlength="10"
-						   required="required"/><br/>
+						   required="required" size="40"/><br/>
 
 					<label for="apellido">Apellido:*<br/></label>
 					<input id="apellido" type="text" name="apellido" placeholder="Lopez" pattern="[A-Za-z]{3,}"
-						   maxlength="25" required="required"/><br/>
+						   maxlength="25" required="required" size="40"/><br/>
 
 					<label for="dni">DNI/NIF:*<br/></label>
 					<input id="dni" type="text" name="dni" placeholder="12345678A" pattern="[0-9]{7,8}[A-Za-z]"
-						   maxlength="9" required="required"/><br/>
-					<div id="mensajeRellenarCampos" class="mensajeRellenarCampos">
-						<p>Por favor, rellene los campos indicados con un *</p>
-					</div>
-					<div id="botonesForm">
-						<input class="botonesForm" type="submit" id="enviar" value="Enviar Pedido"/>
+						   maxlength="9" required="required" size="40"/><br/>
+					<p>Por favor, rellene los campos indicados con un *</p>
+					<div id="botonesForm"  class= "botonesForm">
+						<input class="botonesForm" type="button" id="enviar" value="Enviar Pedido"/>
 						<input class="botonesForm" type="button" id="borrar" value="Borrar"/>
 					</div>
 				</form>
