@@ -173,49 +173,5 @@ button:active{
                              "main"
                              "footer";
     }   
-	  
-	/*ESP: 1*/
-	header{
-		  grid-area: header;
-	}
-	header img {
-		/*width: 30%;
-		height: 30%;*/
-		border: 0;
-	}
-	/*ESP: 1*/
-	nav{
-		  grid-area: nav;
-	}
-	/*ESP: 1*/
-	main{
-		  grid-area: main;
-		  display: flex;
-		  flex-direction: column;
-		  flex-wrap: wrap;
-		  align-items: center;
-	}
-	/*ESP: 1*/
-	footer{
-		  grid-area: footer;
-		  display: flex;
-		  flex-direction: column;
-		  flex-wrap: wrap;
-	}
-     
-	nav > ul {
-		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-		background: #ba3c3c;
-		grid-template-columns: 1fr;
-		color: black;
-		padding: 0 0;
-		text-align: center;
-		border: 1px solid #000;
-	}
-	nav ul li a {
-		color: white;
-		background: #ba3c3c;
-		padding: 10px 20px;
-		text-decoration: none;
-	}
+	
 }
