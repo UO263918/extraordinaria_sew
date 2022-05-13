@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media(max-width:375px){
+@media(max-width:500px){
       body{
 			display:grid;
             grid-template-columns: 1fr;
@@ -146,7 +146,13 @@
 	  margin-left: auto;
 	  margin-right: auto;
 	}
+	
+	nav ul li {
+		float: left;
+		width: 25%;
+	}
 }
+
 body header {
     text-align: center;
 }
@@ -157,17 +163,10 @@ header img {
     border: 0;
 }
 
-nav ul li {
-    float: left;
-    width: 25%;
-}
-
 nav ul li:hover a {
     color: white;
 	background: #ba3c3c;
 }
-
-
 
 button:active{
     color: white;
