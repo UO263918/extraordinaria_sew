@@ -163,7 +163,7 @@ button:active{
     background-color: #A28585 !important;
 }
 
-@media(max-width:760px){
+@media(max-width:600px){
     body{
 		display:grid;
         grid-template-columns: 1fr;
@@ -173,6 +173,33 @@ button:active{
                              "footer";
     }   
 	  
+	/*ESP: 1*/
+	header{
+		  grid-area: header;
+	}
+	/*ESP: 1*/
+	nav{
+		  grid-area: nav;
+		  font: italic;
+		  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+		  color:#483D8B;
+	}
+	/*ESP: 1*/
+	main{
+		  grid-area: main;
+		  display: flex;
+		  flex-direction: column;
+		  flex-wrap: wrap;
+		  align-items: center;
+	}
+	/*ESP: 1*/
+	footer{
+		  grid-area: footer;
+		  display: flex;
+		  flex-direction: column;
+		  flex-wrap: wrap;
+	}
+     
 	nav > ul {
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
