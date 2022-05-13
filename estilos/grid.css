@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media(max-width:500px){
+@media(max-width:760px){
       body{
 			display:grid;
             grid-template-columns: 1fr;
@@ -9,7 +9,6 @@
                                  "footer";
       }   
 }
-@media (min-width:760px)  { 
 	nav > ul {
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
@@ -151,7 +150,7 @@
 		float: left;
 		width: 25%;
 	}
-}
+
 
 body header {
     text-align: center;
