@@ -164,12 +164,34 @@ button:active{
 }
 
 @media(max-width:760px){
-      body{
-			display:grid;
-            grid-template-columns: 1fr;
-            grid-template-areas: "header"
-                                 "nav"
-                                 "main"
-                                 "footer";
-      }   
+    body{
+		display:grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header"
+                             "nav"
+                             "main"
+                             "footer";
+    }   
+	  
+	nav > ul {
+		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+		background: #ba3c3c;
+		color: black;
+		padding: 0 0;
+		position: relative;
+		display: block;
+		margin: 0 0 0 0;
+		width: 100%;
+		text-align: center;
+		z-index: 1;
+		border-radius: 5px 5px 5px 5px;
+		border: 1px solid #000;
+	}
+	nav ul li a {
+		color: white;
+		background: #ba3c3c;
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+	}
 }
