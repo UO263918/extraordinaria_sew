@@ -166,7 +166,7 @@ button:active{
 @media(max-width:600px){
     body{
 		display:grid;
-		width: auto;
+		width: 200px;
         grid-template-columns: 1fr;
         grid-template-areas: "header"
                              "nav"
@@ -181,9 +181,6 @@ button:active{
 	/*ESP: 1*/
 	nav{
 		  grid-area: nav;
-		  font: italic;
-		  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-		  color:#483D8B;
 	}
 	/*ESP: 1*/
 	main{
@@ -204,7 +201,6 @@ button:active{
 	nav > ul {
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
-		display:grid;
 		grid-template-columns: 1fr;
 		color: black;
 		padding: 0 0;
