@@ -1,164 +1,84 @@
-@charset "utf-8";
 
-body header {
-    text-align: center;
+html{
+     font: 400 15px Arial, sans-serif;
 }
 
-header img {
-    width: 30%;
-    height: 30%;
-    border: 0;
-}
-
-nav > ul {
-	font-family: Vegur, 'PT Sans', Verdana, sans-serif;
-	background: #ba3c3c;
-	color: black;
-	padding: 0 0;
-	list-style: none;
-	position: relative;
-	display: inline-table;
-	margin: 0 0 0 0;
-	min-width:800px;
-	max-width:1200px;
-	width: 100%;
+body{
+    color:black;
 	text-align: center;
-	z-index: 1;
-	border-radius: 5px 5px 5px 5px;
-	border: 1px solid #000;
-}
-
-nav ul li {
-	float: left;
-	width: 25%;
-}
-
-nav ul li:hover a {
-    color: white;
-	background: #ba3c3c;
-}
-
-nav ul li a {
-	color: white;
-	background: #ba3c3c;
-	display: table;
-	padding: 10px 20px;
-	text-decoration: none;
-}
-
-.contacto_footer {
-	float: right;
-}
-
-.validaciones {
-	float: left;
-}
-	
-.botonesOpciones{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.botonOpciones{
+     
+  }
+  
+.fullscreen{
 	text-align: center;
+	box-shadow: 1px 1px gray;
+    border: 0.2px solid gray;
 	background: #e6baba;
-	color: black;
-	font-size: 25px;
+	font-size: 22px;
+}
+.calculadoraDeCalorias{
+    max-width: 2000px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px gray;
+    background: #e6baba;
+    color:white;
 }
 
-.recomendaciones {
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
-	justify-content: center;
-	align-items: center;
-	padding: 0 1rem;
-	margin: 1rem;
-}
-.recomendaciones-texto-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.recomendaciones-imagen-derecha {
-	grid-column: 2;
-	margin-left: auto;
-	margin-right: auto;
-}
-.recomendaciones-texto-derecha {
-	grid-column: 2;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.recomendaciones-imagen-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
+button{
+    fill:unset;
+    text-align: center;
+    padding: 15%;
+    box-shadow: 1px 1px gray;
+    border: 0.2px solid gray;
+    padding-bottom: 30px;
+    padding-top: 30px; 
 }
 
-.vegano {
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
-	justify-content: center;
-	align-items: center;
-	padding: 0 1rem;
-	margin: 1rem;
+.calculadoraDeCalorias input   {
+    background: none;
+    border: unset;
+    box-shadow: none;
+    outline: none;
+  
+    padding: 20px 10px;
+    width: 90%;
+
+    color:black;
+    background: #e6baba;
+  
+    text-align: center;
+    font-size: 40px;
+    border-radius: 0;
+  }
+
+
+.calculadoraDeCalorias-botones{
+
+   /*padding: 20px;*/
+
+  
+   display: grid;
+ 
+   text-align:center;
+   grid-template-columns: 1fr 1fr 1fr;
+   background: #e6baba; 
+   
+   color: white;
+    
+   border-radius: 5px;
+   font-size: 22px; 
+   cursor: pointer;
+   padding:15px 30px;
 }
-.vegano-texto-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegano-imagen-derecha {
-	grid-column: 2;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegano-texto-derecha {
-	grid-column: 2;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegano-imagen-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano {
-	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
-	justify-content: center;
-	align-items: center;
-	padding: 0 1rem;
-	margin: 1rem;
-}
-.vegetariano-texto-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano-imagen-derecha {
-	grid-column: 2;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano-texto-derecha {
-	grid-column: 2;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano-imagen-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 
 button:active{
     color: white;
     background-color: #A28585 !important;
 }
+
+
+
+
