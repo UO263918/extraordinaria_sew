@@ -1,14 +1,5 @@
 @charset "utf-8";
-@media(max-width:760px){
-      body{
-			display:grid;
-            grid-template-columns: 1fr;
-            grid-template-areas: "header"
-                                 "nav"
-                                 "main"
-                                 "footer";
-      }   
-}
+
 	nav > ul {
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
@@ -170,4 +161,15 @@ nav ul li:hover a {
 button:active{
     color: white;
     background-color: #A28585 !important;
+}
+
+@media(max-width:760px){
+      body{
+			display:grid;
+            grid-template-columns: 1fr;
+            grid-template-areas: "header"
+                                 "nav"
+                                 "main"
+                                 "footer";
+      }   
 }
