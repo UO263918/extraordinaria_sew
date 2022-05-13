@@ -28,6 +28,31 @@ h3{
     height: 500px;
     width: 100%;
 }
-.mensajeRellenarCampos{
-	font-size: 70%;
+
+::placeholder {
+  font-size: 150%;
+}
+#nombre{
+	height:50px;
+	margin-bottom: 20px;
+}
+#apellido{
+	height:50px;
+	margin-bottom: 20px;
+}
+#dni{
+	height:50px;
+	margin-bottom: 20px;
+}
+form label{
+	font-size: 120%;
+}
+.botonesForm{
+	display: flex;
+	text-align: center;
+	background: #e6baba;
+	color: black;
+	font-size: 25px;
+	margin-right: 30px;
+	margin-bottom: 20px;
 }
