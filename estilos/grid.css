@@ -166,7 +166,7 @@ button:active{
 @media(max-width:600px){
     body{
 		display:grid;
-		width: 50px;
+		width: auto;
         grid-template-columns: 1fr;
         grid-template-areas: "header"
                              "nav"
