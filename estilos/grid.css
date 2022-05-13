@@ -177,7 +177,7 @@ button:active{
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
 		display:grid;
-		grid-template-columns: 1fr;
+		grid-auto-rows: minmax(125px, auto);
 		color: black;
 		padding: 0 0;
 		text-align: center;
