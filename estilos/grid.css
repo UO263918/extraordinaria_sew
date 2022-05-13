@@ -9,7 +9,7 @@
                                  "footer";
       }   
 }
-@media (min-width:801px)  { 
+@media (min-width:760px)  { 
 	nav > ul {
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
