@@ -163,7 +163,7 @@ button:active{
     background-color: #A28585 !important;
 }
 
-@media(max-width:600px){
+@media(max-width:800px){
     body{
 		display:grid;
 		width: 200px;
@@ -177,6 +177,11 @@ button:active{
 	/*ESP: 1*/
 	header{
 		  grid-area: header;
+	}
+	header img {
+		/*width: 30%;
+		height: 30%;*/
+		border: 0;
 	}
 	/*ESP: 1*/
 	nav{
