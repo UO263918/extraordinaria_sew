@@ -204,7 +204,7 @@ button:active{
 		font-family: Vegur, 'PT Sans', Verdana, sans-serif;
 		background: #ba3c3c;
 		display:grid;
-		grid-auto-rows: minmax(125px, auto);
+		grid-template-columns: 1fr;
 		color: black;
 		padding: 0 0;
 		text-align: center;
