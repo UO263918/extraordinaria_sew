@@ -2,7 +2,7 @@
 
 class FormularioDeComentar {
     constructor() {
-        this.formulario = document.querySelector("form[name='comentar']");
+        this.formulario = document.querySelector("form");
         this.boton = document.getElementById("enviar");
         this.botonBorrar = document.getElementById("borrar");
 
@@ -27,7 +27,7 @@ class FormularioDeComentar {
     }
 
     enviar() {
-        this.formulario = document.querySelector("form[name='comentar']");
+        this.formulario = document.querySelector("form");
         let valido = this.formulario.checkValidity();
         if (valido) {
             this.formulario.submit();
@@ -35,7 +35,7 @@ class FormularioDeComentar {
     }
 
     borrar() {
-        this.formulario = document.querySelector("form[name='comentar']");
+        this.formulario = document.querySelector("form");
         this.formulario.reset();
         this.boton = document.getElementById("enviar");
         this.boton.click();

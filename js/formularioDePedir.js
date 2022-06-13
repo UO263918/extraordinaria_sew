@@ -3,7 +3,7 @@
 class FormularioDePedir {
 
     constructor() {
-        this.formulario = document.querySelector("form[name='pedidos']");
+        this.formulario = document.querySelector("form");
         this.boton = document.getElementById("enviar");
         this.botonBorrar = document.getElementById("borrar");
 
@@ -28,7 +28,7 @@ class FormularioDePedir {
     }
 
     enviar() {
-        this.formulario = document.querySelector("form[name='pedidos']");
+        this.formulario = document.querySelector("form");
         let valido = this.formulario.checkValidity();
         if (valido) {
             let datosUsuario = {
@@ -56,7 +56,7 @@ class FormularioDePedir {
     }
 
     borrar() {
-        this.formulario = document.querySelector("form[name='pedidos']");
+        this.formulario = document.querySelector("form");
         this.formulario.reset();
         this.boton = document.getElementById("enviar");
         this.boton.click();

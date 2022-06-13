@@ -12,7 +12,7 @@
 			<alergeno>Huevos</alergeno>
 		</alergenos>
 		<foto>../imagenes/patatasBaconYQueso.png</foto>
-		<recomencadion>Ideales para compartir con otra persona además de pedir una hamburguesa para cada uno</recomencadion>
+		<recomendacion>Ideales para compartir con otra persona además de pedir una hamburguesa para cada uno</recomendacion>
 	</complemento>
 	<complemento id="2">
 		<titulo>Aros de Cebolla con Salsa ULTRA Picante</titulo>
@@ -26,7 +26,7 @@
 			<alergeno>Mostaza</alergeno>
 		</alergenos>
 		<foto>../imagenes/arosDeCebolla.png</foto>
-		<recomencadion>Se pueden compartir entre 4 personas y pedir otro complemento más o directamente una hamburguesa para cada uno</recomencadion>
+		<recomendacion>Se pueden compartir entre 4 personas y pedir otro complemento más o directamente una hamburguesa para cada uno</recomendacion>
 	</complemento>
 	<complemento id="3">
 		<titulo>Alitas de Pollo CRAZY</titulo>
@@ -41,7 +41,7 @@
 			<alergeno>Mostaza</alergeno>
 		</alergenos>
 		<foto>../imagenes/alitasDePollo.jpg</foto>
-		<recomencadion>Se pueden compartir entre 2 personas y pedir otro complemento más o directamente una hamburguesa para cada uno</recomencadion>
+		<recomendacion>Se pueden compartir entre 2 personas y pedir otro complemento más o directamente una hamburguesa para cada uno</recomendacion>
 	</complemento>
 	<complemento id="4">
 		<titulo>Nuggets de Pollo y Pavo Picantes</titulo>
@@ -55,7 +55,7 @@
 			<alergeno>Cereales con Gluten</alergeno>
 		</alergenos>
 		<foto>../imagenes/nuggetsDePolloYPavoPicantes.jpg</foto>
-		<recomencadion>Se pueden compartir entre 2 personas y una hamburguesa para cada uno</recomencadion>
+		<recomendacion>Se pueden compartir entre 2 personas y una hamburguesa para cada uno</recomendacion>
 	</complemento>
 	<complemento id="5">
 		<titulo>Nuggets Veganos</titulo>
@@ -68,6 +68,6 @@
 			<alergeno>Cereales con Gluten</alergeno>
 		</alergenos>
 		<foto>../imagenes/nuggetsVeganos.jpg</foto>
-		<recomencadion>Ideal para probar comida 100% vegana, se pueden compartir entre 2 personas y pedir una hamburguesa para cada uno</recomencadion>
+		<recomendacion>Ideal para probar comida 100% vegana, se pueden compartir entre 2 personas y pedir una hamburguesa para cada uno</recomendacion>
 	</complemento>
 </complementos>

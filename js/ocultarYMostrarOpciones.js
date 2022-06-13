@@ -17,6 +17,7 @@ class OcultarMostrarOpciones{
         $(document).ready(function () {
             $(".vegano").hide();
         });
+		
     }
 	
 	mostrarVeganos() {

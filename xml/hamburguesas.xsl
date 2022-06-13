@@ -72,6 +72,18 @@
                             </section>
                         </xsl:for-each>
                     </main>
+					<footer>
+						<p class="contacto">
+							<span>
+								Responsable de la Hamburguesería:
+								<a href="mailto:uo263918@uniovi.es">Raúl López Calvo</a>
+							</span>
+						</p>
+						<p class="validaciones">
+							<a href="https://validator.w3.org/check?uri=referer"><img src="imagenes/HTML5.png" alt=" HTML5 Válido!"/></a>
+							<a href=" http://jigsaw.w3.org/css-validator/check/referer "><img src="imagenes/CSS3.png" alt="CSS Válido" height="63" width="64" /></a>
+						</p>
+					</footer>
                 </body>
             </html>
         </xsl:template>

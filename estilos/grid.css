@@ -25,7 +25,7 @@ nav ul li a {
 	text-decoration: none;
 }
 
-.contacto_footer {
+.contacto {
 	float: right;
 }
 
@@ -33,106 +33,43 @@ nav ul li a {
 	float: left;
 }
 	
-.botonesOpciones{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.botonOpciones{
+p button{
+	display: inline;
 	text-align: center;
 	background: #e6baba;
 	color: black;
 	font-size: 25px;
+	margin-left: 120px;
+	margin-bottom: 20px;
 }
 .recomendaciones {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
+	grid-gap: 50px;
 	justify-content: center;
 	align-items: center;
 	padding: 0 1rem;
 	margin: 1rem;
 }
-.recomendaciones-texto-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.recomendaciones-imagen-derecha {
-	grid-column: 2;
-	margin-left: auto;
-	margin-right: auto;
-}
-.recomendaciones-texto-derecha {
-	grid-column: 2;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.recomendaciones-imagen-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .vegano {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
+	grid-gap: 50px;
 	justify-content: center;
 	align-items: center;
 	padding: 0 1rem;
 	margin: 1rem;
 }
-.vegano-texto-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegano-imagen-derecha {
-	grid-column: 2;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegano-texto-derecha {
-	grid-column: 2;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegano-imagen-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .vegetariano {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	grid-gap: 10px;
+	grid-gap: 50px;
 	justify-content: center;
 	align-items: center;
 	padding: 0 1rem;
 	margin: 1rem;
-}
-.vegetariano-texto-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano-imagen-derecha {
-	grid-column: 2;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano-texto-derecha {
-	grid-column: 2;
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.vegetariano-imagen-izquierda {
-	grid-column: 1;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 nav ul li {

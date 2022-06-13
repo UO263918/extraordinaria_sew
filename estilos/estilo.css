@@ -32,23 +32,15 @@ h3{
 ::placeholder {
   font-size: 150%;
 }
-#nombre{
-	height:50px;
-	margin-bottom: 20px;
-}
-#apellido{
-	height:50px;
-	margin-bottom: 20px;
-}
-#dni{
-	height:50px;
-	margin-bottom: 20px;
-}
 form label{
 	font-size: 120%;
 }
-.botonesForm{
-	display: flex;
+form input{
+	height:50px;
+	margin-bottom: 20px;
+}
+form p:last-child input{
+	display: inline;
 	text-align: center;
 	background: #e6baba;
 	color: black;

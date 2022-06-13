@@ -3,7 +3,6 @@
     <head>
         <title>Hamburguesería Bajo Locus Pedido</title>
         <meta charset = "UTF-8"/>
-	<base href="https://uo263918.github.io/extraordinaria_sew/"/>
 		<meta name="author-name" content="Raúl López Calvo UO263918"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -34,39 +33,37 @@
 		<main>
 			<section>
 				<h2>Realize su pedido:</h2>
-				<p>Rellene el formulario con sus datos para procesar el pedido</p>
-
-				<form name="pedidos" class="pedidos">
-					<label for="nombre">Nombre:*<br/></label>
-					<input id="nombre" type="text" name="nombre" placeholder="Raul" pattern="[A-Za-z]{3,}" maxlength="10"
-						   required="required" size="40"/><br/>
-
-					<label for="apellido">Apellido:*<br/></label>
-					<input id="apellido" type="text" name="apellido" placeholder="Lopez" pattern="[A-Za-z]{3,}"
-						   maxlength="25" required="required" size="40"/><br/>
-
-					<label for="dni">DNI/NIF:*<br/></label>
-					<input id="dni" type="text" name="dni" placeholder="12345678A" pattern="[0-9]{7,8}[A-Za-z]"
-						   maxlength="9" required="required" size="40"/><br/>
+				<p>Rellene el formulario con sus datos para procesar el pedido</p>				
+				<form method="post" action="php/pedido.php">
+					<p>Nombre:* <input type="text" name="nombre" placeholder="Raul" pattern="[A-Za-z]{3,}" maxlength="10"
+						   required="required" size="40"/></p>
+						   
+					<p>Apellido:* <input type="text" name="apellido" placeholder="Lopez" pattern="[A-Za-z]{3,}"
+						   maxlength="25" required="required" size="40"/></p>
+						   
+					<p>DNI/NIF:* <input type="text" name="dni" placeholder="12345678A" pattern="[0-9]{7,8}[A-Za-z]"
+						   maxlength="9" required="required" size="40"/></p>
+						   
 					<p>Por favor, rellene los campos indicados con un *</p>
-					<div id="botonesForm"  class= "botonesForm">
-						<input class="botonesForm" type="submit" id="enviar" value="Enviar Pedido"/>
-						<input class="botonesForm" type="button" id="borrar" value="Borrar"/>
-					</div>
+					
+					<p>
+						<input type="submit" id="enviar" value="Enviar"/>
+						<input type="button" id="borrar" value="Borrar"/>
+					</p>
 				</form>
 			</section>
 		</main>
         <footer>
-            <div id="contacto">
-				<span class="contacto_footer">
+            <p class="contacto">
+				<span>
 					Responsable de la Hamburguesería:
 					<a href="mailto:uo263918@uniovi.es">Raúl López Calvo</a>
 				</span>
-			</div>
-			<div class="validaciones">
+			</p>
+			<p class="validaciones">
 				<a href="https://validator.w3.org/check?uri=referer"><img src="imagenes/HTML5.png" alt=" HTML5 Válido!"/></a>
 				<a href=" http://jigsaw.w3.org/css-validator/check/referer "><img src="imagenes/CSS3.png" alt="CSS Válido" height="63" width="64" /></a>
-			</div>
+			</p>
 		</footer>
 	<script src="js/FormularioDePedir.js"></script>
     </body>
