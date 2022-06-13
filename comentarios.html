@@ -39,16 +39,16 @@
 				</p>
 				
 				<form method="post" action="php/comentar.php">
-					<p>Nombre:* <input type="text" name="nombre" placeholder="Raul" pattern="[A-Za-z]{3,}" maxlength="10"
+					<p>Nombre:* <input type="text" name="nombre" title="nombre" placeholder="Raul" pattern="[A-Za-z]{3,}" maxlength="10"
 						   required="required" size="40"/></p>
 						   
-					<p>Apellido:* <input type="text" name="apellido" placeholder="Lopez" pattern="[A-Za-z]{3,}"
+					<p>Apellido:* <input type="text" name="apellido" title="apellido" placeholder="Lopez" pattern="[A-Za-z]{3,}"
 						   maxlength="25" required="required" size="40"/></p>
 						   
-					<p>DNI/NIF:* <input type="text" name="dni" placeholder="12345678A" pattern="[0-9]{7,8}[A-Za-z]"
+					<p>DNI/NIF:* <input type="text" name="dni" title="dni" placeholder="12345678A" pattern="[0-9]{7,8}[A-Za-z]"
 						   maxlength="9" required="required" size="40"/></p>
 
-					<p>Comentarios:* <input type="text" name="comentario" placeholder="Comente lo que usted desee aqui"
+					<p>Comentarios:* <input type="text" name="comentario" title="comentario" placeholder="Comente lo que usted desee aqui"
 						   maxlength="400" required="required" size="40"/></p>
 					
 					<p>Por favor, rellene los campos indicados con un *</p>
